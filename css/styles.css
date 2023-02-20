@@ -7,6 +7,11 @@
     padding: 0 18px;
  }
 
+ .nav-link {
+   color: gray;
+   font-weight: bold;
+ }
+
  /* title */
 
  .h1-header {
