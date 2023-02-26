@@ -1,5 +1,15 @@
+/* Containers */
 
+/* .container-lg {
+   padding: 7% 15%;
+} */
 
+/* sections  */
+
+.section-div {
+   padding: 7% 0;
+   /* background-color: aquamarine; */
+}
 
 /* Navigation Bar */
 
@@ -22,9 +32,10 @@
    margin-bottom: 30px;
 }
 
-.title-div {
+/* .title-div {
    padding: 140px 0 80px;
-}
+   padding: 7% 0 15%;
+} */
 
 .title-btn {
    margin: 5% 3% 5% 0;
@@ -34,4 +45,37 @@
 
 .tag-btn {
   margin: 5px;
+}
+
+/* project */
+
+.project-text-area {
+   /* padding-right: 5%; */
+   padding-bottom: 70px; /* needed so the slide doesn't change the size of the container */
+}
+
+.project-subheading {
+   line-height: 1.5;
+}
+
+.project-div {
+   padding-top: 5%;
+}
+
+
+.project-image {
+   margin: 20px;
+}
+
+.project-big-image {
+   width: 100%;
+}
+
+.carousel-item { 
+   padding: 0 15% 7%;
+   text-align: center;
+}
+
+.github-link {
+   text-decoration: none;
 }

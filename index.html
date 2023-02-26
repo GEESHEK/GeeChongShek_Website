@@ -43,10 +43,10 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
+                            <a class="nav-link" href="#projects">Portfolio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contact</a>
@@ -56,7 +56,7 @@
             </nav>
 
             <!-- Title -->
-            <div class="title-div row">
+            <div class="section-div row">
                 <div class="col-lg-8">
                     <h3 class="h3-header">Hello World, I am Gee.</h3>
                     <h1 class="h1-header">An Aspiring Developer Graduate working at Barclays as a Java Developer.</h1>
@@ -75,27 +75,35 @@
 
     <section id="skills">
 
-        <div class="container-lg">
+        <div class="container-lg section-div">
             <h2>Core Technologies</h2>
             <div class="row">
-                <div class="col">  
+                <div class="col">
                     <div class="card border-0">
                         <div class="card-body">
-                            <button type="button" class="tag-btn btn btn-primary btn-lg"><i class="fa-brands fa-java fa-lg"></i> Java</button>
-                            <button type="button" class="tag-btn btn btn-primary btn-lg"><i class="fa-brands fa-git-alt fa-lg"></i></i> Git</button>
-                            <button type="button" class="tag-btn btn btn-primary btn-lg"><i class="fa-solid fa-leaf fa-lg"></i></i> Spring Boot</button>
-                            <button type="button" class="tag-btn btn btn-primary btn-lg"><i class="fa-solid fa-database fa-lg"></i> MySQL</button>
-                            <button type="button" class="tag-btn btn btn-primary btn-lg"><i class="fa-regular fa-file-code fa-lg"></i> Cucumber</button>
-                            <button type="button" class="tag-btn btn btn-primary btn-lg"><i class="fa-brands fa-html5 fa-lg"></i> HTML</button>
-                            <button type="button" class="tag-btn btn btn-primary btn-lg"><i class="fa-brands fa-css3-alt fa-lg"></i> CSS</button>
-                            <button type="button" class="tag-btn btn btn-primary btn-lg"><i class="fa-brands fa-bootstrap fa-lg"></i> Bootstrap</button>
+                            <button type="button" class="tag-btn btn btn-primary btn-lg"><i
+                                    class="fa-brands fa-java fa-lg"></i> Java</button>
+                            <button type="button" class="tag-btn btn btn-primary btn-lg"><i
+                                    class="fa-brands fa-git-alt fa-lg"></i></i> Git</button>
+                            <button type="button" class="tag-btn btn btn-primary btn-lg"><i
+                                    class="fa-solid fa-leaf fa-lg"></i></i> Spring Boot</button>
+                            <button type="button" class="tag-btn btn btn-primary btn-lg"><i
+                                    class="fa-solid fa-database fa-lg"></i> MySQL</button>
+                            <button type="button" class="tag-btn btn btn-primary btn-lg"><i
+                                    class="fa-regular fa-file-code fa-lg"></i> Cucumber</button>
+                            <button type="button" class="tag-btn btn btn-primary btn-lg"><i
+                                    class="fa-brands fa-html5 fa-lg"></i> HTML</button>
+                            <button type="button" class="tag-btn btn btn-primary btn-lg"><i
+                                    class="fa-brands fa-css3-alt fa-lg"></i> CSS</button>
+                            <button type="button" class="tag-btn btn btn-primary btn-lg"><i
+                                    class="fa-brands fa-bootstrap fa-lg"></i> Bootstrap</button>
                         </div>
                     </div>
                 </div>
-     
-           
 
-         </div>
+
+
+            </div>
 
 
 
@@ -108,14 +116,80 @@
 
     <section id="projects">
 
-        <div class="container-lg">
+        <div class="container-lg section-div">
 
-            <h1>My Project</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere quae veniam, voluptates labore quidem
-                aut!
-                Assumenda culpa,
-                laudantium excepturi dignissimos earum dolore aut eveniet, quas nisi unde consequatur voluptate quis.
-            </p>
+            <h1>My Projects</h1>
+
+            <div class="row project-div">
+                <div class="col-lg-4 project-text-area">
+                <h4 class="project-subheading">Real-Time Trading Simulator using live stock data from a Yahoo API</h4>
+                <em>Java, Spring Boot, Unit-Testing, H2 Database, Swing GUI</em>
+                <br>
+                <br>
+                <p>Real-Time Trading simulator using live stock data from a yahoo API, with User data and purchase history stored in a one-to-many CRUD Repository. 
+                    This project used a swing GUI as the front end as we have not been taught any front end for our bootcamp. 
+                    This was the final capstone project completed as a team during the last week of our 11 weeks JAVA bootcamp.
+                </p>
+           
+                <h5>My role in the team:</h5>
+                <p>I was the backend engineer for this project using spring boot to create all the entities and classes that connect to the H2 database.</p>
+                <br>
+                <a class="github-link" href="https://github.com/GEESHEK1995/RealTimeTradingSimulator" target="_blank">Visit RealTimeTradingSimulator Source Code</a>
+                </div>
+
+                <div class="col-lg-8">
+                    <div id="project-carousel" class="carousel carousel-dark slide" data-bs-ride="false">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#project-carousel" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#project-carousel" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#project-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#project-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#project-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active container-fluid">
+                                <h5 class="project-text">Login Window</h5>
+                                <img class="project-image" src="images/Login.png" alt="login-window">
+                            </div>
+                            <div class="carousel-item container-fluid">
+                                <h5 class="project-text">Trading App Window</h5>
+                                <img class="project-image project-big-image" src="images/Trading-App.png" alt="trading-app-window">
+                            </div>
+                            <div class="carousel-item container-fluid">
+                                <h5 class="project-text">Buy Stock Window</h5>
+                                <img class="project-image" src="images/Confirmation.png" alt="buy-window">
+                            </div>
+                            <div class="carousel-item container-fluid">
+                                <h5 class="project-text">Stock Information Window</h5>
+                                <img class="project-image" src="images/Information.png" alt="stock-information-window">
+                            </div>
+                            <div class="carousel-item container-fluid">
+                                <h5 class="project-text">Trading App Window</h5>
+                                <img class="project-image project-big-image" src="images/Trading-App1.png" alt="trading-app-window1">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#project-carousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#project-carousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+
+           
+
+
+
         </div>
     </section>
 
@@ -123,7 +197,7 @@
 
     <section id="about">
 
-        <div class="container-lg">
+        <div class="container-lg section-div">
             <h1>About Me</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere quae veniam, voluptates labore quidem
                 aut!
@@ -141,7 +215,7 @@
 
     <footer id="footer">
 
-        <div class="container-lg">
+        <div class="container-lg section-div">
 
             <p>©2023 Gee Chong Shek</p>
 
