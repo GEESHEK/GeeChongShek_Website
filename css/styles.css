@@ -41,21 +41,24 @@
    margin: 5% 3% 5% 0;
 }
 
-/* What I do */
+/* Core Tech */
 
 .tag-btn {
   margin: 5px;
 }
 
+.row-card {
+   margin-top: 2.5%;
+}
+
 /* project */
 
-.project-text-area {
-   /* padding-right: 5%; */
-   padding-bottom: 70px; /* needed so the slide doesn't change the size of the container */
+.carousel-inner {
+    min-height: 550px; /* needed so the slide doesn't change the size of the container */
 }
 
 .project-subheading {
-   line-height: 1.5;
+   line-height: 1.5; 
 }
 
 .project-div {
